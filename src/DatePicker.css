@@ -1,0 +1,96 @@
+.weekday-date-picker {
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.controls button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+}
+
+.day-label {
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+    padding: 8px;
+}
+
+.day {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    user-select: none;
+}
+
+.day:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Light background on hover */
+}
+
+.day.selected {
+    background-color: #007bff;
+    color: white;
+}
+
+.weekend {
+    background-color: rgba(240, 240, 240, 0.8);
+    color: #aaa;
+    cursor: not-allowed;
+}
+
+.selected {
+    background-color: #007bff;
+    color: white;
+}
+
+.today {
+    border: 2px solid #007bff;
+}
+
+.predefined-ranges {
+    margin-top: 16px;
+}
+
+.predefined-ranges button {
+    margin-right: 8px;
+    padding: 6px 12px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    background: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.predefined-ranges button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.day.range-selected {
+    background-color: #007bff;
+    color: white;
+}
