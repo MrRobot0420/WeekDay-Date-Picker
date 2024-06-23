@@ -1,19 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
 # SCREENSHOTS:
 
 ## UI
@@ -30,5 +14,3 @@ You will also see any lint errors in the console.
 
 ## LAST 30 DAYS SELECTION
 <img width="1680" alt="image" src="https://github.com/MrRobot0420/WeekDay-Date-Picker/assets/77061560/b126dea4-1011-4852-8d78-55ac8307dff4">
-
-
