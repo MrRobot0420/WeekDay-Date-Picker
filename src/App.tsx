@@ -3,6 +3,7 @@ import DatePicker from './DatePicker';
 import './App.css';
 
 const App: React.FC = () => {
+  // To check the handling of dates with respect ot selection of week days (start and end date and the weekend dates)
   const handleDateChange = (selectedDates: { startDate: Date | null, endDate: Date | null}, weekends: Date[]) => {
     console.log('FB check selected dates -->', selectedDates);
     console.log('FB check weekend dates -->', weekends);
